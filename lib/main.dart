@@ -27,6 +27,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
+      theme: ThemeData(fontFamily: 'Seonbi'),
       home: isOnboarded ? HomePage() : TestScreen(),
     );
   }
@@ -47,7 +48,7 @@ class TestScreen extends StatelessWidget {
     Introduction(
       title: '10년 후의 나',
       subTitle: 'Pick up delivery at your door and enjoy groceries',
-      imageUrl: 'assets/images/onboarding5.png',
+      imageUrl: 'assets/images/recent2.png',
     ),
   ];
 
